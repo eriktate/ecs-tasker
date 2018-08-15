@@ -7,15 +7,11 @@ type Tasker interface {
 }
 
 type UpdateContainerInput struct {
-	Cluster       string
-	Service       string
 	Family        string
 	ContainerDefs string
 }
 
 type ImageUpdateInput struct {
-	Cluster string
-	Service string
-	Family  string
-	Image   string
+	Family string
+	Image  string
 }
